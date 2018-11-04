@@ -1,23 +1,19 @@
 # Demo App
 
-This is the src code of kepler.gl demo app.
+This is the src code of 3D travel time visualization
 
 
-### Local dev
-```
-npm install
-```
-or
-```
-yarn --ignore-engines
+## Installation:
+
+```bash
+git clone https://github.com/waltleungwbl/3dtraveltimevis
+# create virtualenv
+pip3 install -r requirements.txt
 ```
 
-add mapbox access token to node env
-```
-export MapboxAccessToken=<your_mapbox_token>
-```
+## Running:
 
-then
-```
-npm start
+```bash
+source bin/activate
+python omnisci.py
 ```
